@@ -27,7 +27,7 @@ int main()
     int n;
     cout<<"enter number of students:";
     cin>>n;
-    Student s[n];  //
+    Student s[n]; 
     for (int i = 0; i<n; i++)
     {
         cout<<"\n enter details for student" <<i+1<<";\n";
@@ -40,4 +40,5 @@ int main()
         s[i].showdata();
     }
     return 0;
+
 }
