@@ -22,7 +22,6 @@ class ElectricityBill
         }
         return amount;
     }
-
 public:
     void input() {
         cout << "Consumer No: "; cin >> consumerNo;
@@ -39,10 +38,10 @@ public:
              << "\nUnits Consumed: " << units << "\nBill Amount: Rs. " << bill << "\n";
     }
 };
-
 int main() {
     ElectricityBill e;
     e.input();
     e.display();
     return 0;
 }
+
